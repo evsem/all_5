@@ -1,0 +1,43 @@
+body {
+  background-color: beige;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container_main {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.title {
+}
+
+#text_title {
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.input_text {
+  width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.btn_forms {
+  margin-left: 30px;
+  width: 60px;
+  background-color: white;
+  border: 2px solid coral;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.list {
+}
+
+.item_list {
+}

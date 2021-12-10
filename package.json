@@ -1,0 +1,17 @@
+{
+  "name": "all_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "unit"
+  },
+  "keywords": [
+    "js",
+    "Vue",
+    "npm",
+    "web"
+  ],
+  "author": "evsem",
+  "license": "ISC"
+}

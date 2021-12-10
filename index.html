@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>all_5</title>
+
+    <link rel="stylesheet" href="../all_5/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container_main">
+      <div class="title">
+        <p id="text_title">{{ text }}</p>
+      </div>
+
+      <div class="forms">
+        <input
+          type="text"
+          class="input_text"
+          :placeholder="placeholderText"
+          :value="textInputValue"
+        />
+        <button class="btn_forms">Add</button>
+      </div>
+
+      <hr />
+
+      <h2 class="conclusion"></h2>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="../all_5/js/main_Script.js"></script>
+    <script src="../all_5/js/app.js"></script>
+  </body>
+</html>
